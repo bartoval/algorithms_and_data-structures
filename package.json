@@ -5,22 +5,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ./src/*",
-    "test": "jest",
-    "check:src": "yarn lint && yarn test -- --coverage"
+    "test": "jest"
   },
   "author": "Valerio Bartolini",
-  "homepage": "https://github.com/bayesianforce/algorithms_and_data-structures#readme",
+  "homepage": "https://github.com/bartoval/algorithms_and_data-structures#readme",
   "devDependencies": {
-    "@babel/cli": "7.8.4",
-    "@babel/core": "7.9.6",
-    "@babel/preset-env": "7.9.6",
+    "@babel/cli": "7.18.6",
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
     "babel-eslint": "10.1.0",
-    "eslint": "7.0.0",
-    "eslint-config-airbnb-base": "14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "23.13.1",
-    "eslint-plugin-security": "1.4.0",
-    "jest": "26.0.1"
+    "jest": "28.1.3"
     }
 }
